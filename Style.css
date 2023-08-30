@@ -1,0 +1,781 @@
+.body{
+    height: 3814px; ;
+}
+.head-line{
+    display: flex;
+    margin-top: 44px;
+}
+
+.dot {
+    height: 50px;
+    width: 50px;
+    background-color:yellow;
+    border-radius: 50%;
+  }
+.Tourism {
+    
+    width: 155px;
+    height: 60px;
+    font-family: UnthriftSecondPersonal;
+    font-size: 45px;
+    font-weight: normal;
+    font-stretch: normal;
+    font-style: normal;
+    letter-spacing: normal;
+    text-align: left;
+    color: var(--black);
+    align-self: flex-start;
+    margin-left: 400px;
+  }
+  .heading{
+    height: 700px;
+  }
+  
+.Features {
+    width: 96px;
+    height: 19px;
+    font-family: OpenSans;
+    font-size: 14px;
+    font-weight: normal;
+    font-stretch: normal;
+    font-style: normal;
+    line-height: 1.36;
+    letter-spacing: 5.6px;
+    text-align: left;
+    color: var(--black);
+    padding-left: 1214px;
+}
+.Contacts {
+    width: 96px;
+    height: 19px;
+    font-family: OpenSans;
+    font-size: 14px;
+    font-weight: normal;
+    font-stretch: normal;
+    font-style: normal;
+    line-height: 1.36;
+    letter-spacing: 5.6px;
+    text-align: left;
+    color: var(--black);
+    margin-left: 20px;
+  }
+.BackGround-Tourism{
+    background-image: url(./assets/Tourism.png);
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat; 
+    /* to not repeat the content if we resize the screen  */
+    height: 700px;
+    position: absolute;
+    width: 100%;
+    background-attachment: scroll;
+    z-index: -1;  
+    /* to move the photo behind the content */
+  }
+  .LUXURY {
+    width: 360px;
+    height: 125px;
+    font-family: JuliusSansOne;
+    font-size: 94px;
+    font-weight: normal;
+    font-stretch: normal;
+    font-style: normal;
+    line-height: 1.33;
+    letter-spacing: 5.26px;
+    text-align: left;
+    color: var(--black);
+  }
+.tourism-content{
+    display: flex;
+    flex-direction: column;
+    margin-left: 400px;
+    margin-top: 214px;
+}
+.Tourism-content{
+    width: 448px;
+    height: 53px;
+    font-family: Karma;
+    font-size: 18px;
+    font-weight: normal;
+  font-stretch: normal;
+    font-style: normal;
+    line-height: 1.5;
+    letter-spacing: normal;
+    text-align: left;
+    color: #9e9e9e;
+    margin-top: 30px;
+    margin-bottom: 50px;
+}
+.ToLeave-Bottom{
+    width: 170px;
+    height: 56px;
+    background-color:black;
+    text-align: center;
+    display: flex;
+    justify-content: center;   
+    align-items: center; 
+    
+  }
+  .TO-LEAVE {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    top: 19px;
+    right: 2px;
+    width: 74px;
+    height: 19px;
+    font-family: OpenSans;
+    font-size: 12px;
+    font-weight: normal;
+    font-stretch: normal;
+    font-style: normal;
+    line-height: 1.36;
+    letter-spacing: 1.68px;
+    text-align: left;
+    color: #fff;
+    left: 50px;
+  }
+  .Forest-background{
+    background-image: url(./assets/Mask\ Group\ 1_2.png);
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat; 
+    /* to not repeat the content if we resize the screen  */
+    position: absolute;
+    margin-top: 300px;
+    width: 100%;
+    height: 700px;
+    background-attachment: scroll;
+    z-index: -1;  
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    
+    /* to move the photo behind the content */
+  }
+  .photographer-background{
+    display: flex;
+    width: 1200px;
+    height: 427px;
+    background-color: white;
+    margin-top: 200px;
+  }
+  
+  .text-container{
+    display: flex;
+    flex-flow: column;
+    justify-content: center;
+    align-items: center;
+    
+  }
+  .ABOUT{
+    width: 117px;
+    height: 43px;
+    font-family: JuliusSansOne;
+    font-size: 32px;
+    font-weight: normal;
+    font-stretch: normal;
+    font-style: normal;
+    line-height: 1.34;
+    letter-spacing: 3.84px;
+    text-align: left;
+    color: var(--black);
+    margin-right: 20px;
+  }
+
+.aboutPhotographer{
+  left: 70px;
+  width: 544px;
+  height: 107px;
+  font-family: Karma;
+  font-size: 18px;
+  font-weight: normal;
+  font-stretch: normal;
+  font-style: normal;
+  line-height: 1.5;
+  letter-spacing: normal;
+  text-align: left;
+  color: #9e9e9e;
+}
+.READ-MORE{
+ 
+  width: 100px;
+  height: 19px;
+  font-family: OpenSans;
+  font-size: 14px;
+  font-weight: normal;
+  font-stretch: normal;
+  font-style: normal;
+  line-height: 1.36;
+  letter-spacing: 1.68px;
+  text-align: left;
+  color: var(--black);
+  top: 20px;
+}  
+#word-vertically{
+    width: 55%;
+}
+.line {
+    width: 102px; 
+    height: 2px; 
+    background-color: black;
+   
+  }
+  .features{
+    
+    
+  }
+  .Details{
+    display: flex;
+    justify-content: center;
+    height: 500px;
+    background-color: #ffffff;
+    margin-top: 274px;
+    margin-top:1100px ;
+  }
+  .feature{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+   
+  }
+  
+  .Ellipse{
+    display: flex;
+    width: 160px;
+    height: 160px;
+    border-radius: 50%;
+    overflow: hidden;
+    position: relative;
+    background-color: #fbfbfb;
+    align-items: center;
+    justify-content: center;
+    top: 20px;
+    
+    
+  }
+  .POINTER{
+    width: 108px;
+    height: 31px;
+    font-family: JuliusSansOne;
+    font-size: 23px;
+    font-weight: normal;
+    font-stretch: normal;
+    font-style: normal;
+    line-height: 1.35;
+    letter-spacing: 2.76px;
+    text-align: left;
+    color: var(--black);
+    margin-top: 40px;
+  }
+  .detail{
+    width: 256px;
+    height: 71px;
+    font-family: Karma;
+    font-size: 16px;
+    font-weight: normal;
+    font-stretch: normal;
+    font-style: normal;
+    line-height: 1.5;
+    letter-spacing: normal;
+    text-align: center;
+    color: #9e9e9e;
+    
+    
+  }
+  
+  .sizing-1{
+    width: 35%;
+    margin-top: 0px;
+    margin-left: 30px
+  }
+  
+  .PLANE{
+    width: 79px;
+    height: 31px;
+    font-family: JuliusSansOne;
+    font-size: 23px;
+    font-weight: normal;
+    font-stretch: normal;
+    font-style: normal;
+    line-height: 1.35;
+    letter-spacing: 2.76px;
+    text-align: left;
+    color: var(--black);
+    margin-bottom: 20px;
+  }
+  .MAP {
+    width: 54px;
+    height: 31px;
+    font-family: JuliusSansOne;
+    font-size: 23px;
+    font-weight: normal;
+    font-stretch: normal;
+    font-style: normal;
+    line-height: 1.35;
+    letter-spacing: 2.76px;
+    text-align: left;
+    color: var(--black);
+    margin-top: 40px;
+  }
+  .First-BackGround{
+    background-image: url(./assets/Mask\ Group\ 6.png);
+    margin-top: 100px;
+    width: 1000px;
+    height: 500px;
+    background-size: cover;
+    background-repeat: no-repeat;
+  }
+  .Second-BackGround{
+    background-image: url(./assets/Mask\ Group\ 1.png);
+    margin-top: 100px;
+    width: 610px;
+    height: 500px;
+    background-repeat: no-repeat;
+    background-size: cover;
+  }
+  .BackGrounds{
+    display: flex;
+  }
+  .third-BackGround{
+    background-image: url(./assets/Mask\ Group\ 8.png);
+    margin-top: 100px;
+    width: 1000px;
+    height: 500px;
+    background-repeat: no-repeat;
+    background-size: cover;
+  }
+  .Destinations{
+    margin-top: 150px;
+    display: flex;
+    justify-content: space-evenly;
+  }
+  .destination{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+  }
+  
+  .RAS-AL-KHAIMAH {
+    width: 250px;
+    height: 31px;
+    font-family: JuliusSansOne;
+    font-size: 23px;
+    font-weight: normal;
+    font-stretch: normal;
+    font-style: normal;
+    line-height: 1.35;
+    letter-spacing: 2.76px;
+    text-align: left;
+    color: var(--black);
+  }
+  .VIEW {
+    width: 38px;
+    height: 19px;
+    font-family: OpenSans;
+    font-size: 14px;
+    font-weight: normal;
+    font-stretch: normal;
+    font-style: normal;
+    line-height: 1.36;
+    letter-spacing: 1.68px;
+    text-align: left;
+    color: var(--black);
+  }
+  .detail-1{
+    width: 256px;
+    height: 47px;
+    font-family: Karma;
+    font-size: 16px;
+    font-weight: normal;
+    font-stretch: normal;
+    font-style: normal;
+    line-height: 1.5;
+    letter-spacing: normal;
+    text-align: left;
+    color: #9e9e9e;
+    margin-top: 20px;
+    margin-bottom: 20px;
+  }
+  .line-1 {
+    border-top: 3px solid black;
+    width: 50px;
+    background-color: black;
+    top: 30px;
+  }
+  .DUBAI {
+    width: 77px;
+    height: 31px;
+    font-family: JuliusSansOne;
+    font-size: 23px;
+    font-weight: normal;
+    font-stretch: normal;
+    font-style: normal;
+    line-height: 1.35;
+    letter-spacing: 2.76px;
+    text-align: left;
+    color: var(--black);
+  }
+  .sizing-2{
+    margin-top: 20px;
+    margin-bottom: 10px;
+    width: 60%;
+  }
+  .ABU-DHABI {
+    width: 170px;
+    height: 31px;
+    font-family: JuliusSansOne;
+    font-size: 23px;
+    font-weight: normal;
+    font-stretch: normal;
+    font-style: normal;
+    line-height: 1.35;
+    letter-spacing: 2.76px;
+    text-align: left;
+    color: var(--black);
+    text-align: center;
+      margin-left: 80px;
+  }
+  .detail-2{
+    width: 256px;
+    height: 47px;
+    font-family: Karma;
+    font-size: 16px;
+    font-weight: normal;
+    font-stretch: normal;
+    font-style: normal;
+    line-height: 1.5;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    letter-spacing: normal;
+    text-align: right;
+    color: #9e9e9e;
+  }
+  .VIEW1{
+    text-align: left;
+      margin-left: 200px;
+  }
+  .line-2{
+    border-top: 3px solid black;
+    width: 50px;
+    background-color: black;
+    top: 30px;
+  }
+  .line-container {
+    position: relative;
+    width: 100%;
+    height: 5px; /* Set your desired height */
+  }
+  
+  .line-3 {
+    width: 60px;
+    height: 2px; /* Set your desired line thickness */
+    background-color: black; /* Set the line color */
+    position: absolute;
+    bottom: 0;
+    right: 0;
+  }
+  .Main-Hotels {
+    background-color: #fbfbfb;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin-top: 150px;
+  }
+  .HOTELS {
+    width: 130px;
+    height: 43px;
+    font-family: JuliusSansOne;
+    font-size: 32px;
+    font-weight: normal;
+    font-stretch: normal;
+    font-style: normal;
+    line-height: 1.34;
+    letter-spacing: 3.84px;
+    text-align: left;
+    color: var(--black);
+  }
+  
+  .Options{
+    display: flex;
+    height: 600px;
+    margin-top: 30px;
+    margin-bottom: 50px;
+    justify-content: center;
+    align-items: center;
+  }
+  .Option{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin-left: 20px;
+  
+  }
+  .NIHI-SUMBA {
+    width: 180px;
+    height: 31px;
+    font-family: JuliusSansOne;
+    font-size: 23px;
+    font-weight: normal;
+    font-stretch: normal;
+    font-style: normal;
+    line-height: 1.35;
+    letter-spacing: 2.76px;
+    text-align: left;
+    color: var(--black);
+  }
+  .description-5{
+    width: 256px;
+    height: 71px;
+    font-family: Karma;
+    font-size: 16px;
+    font-weight: normal;
+    font-stretch: normal;
+    font-style: normal;
+    line-height: 1.5;
+    letter-spacing: normal;
+    text-align: center;
+    color: #9e9e9e;
+    margin-bottom: 20px;
+      margin-top: 20px;
+  }
+  .price-sector{
+    display: flex;
+    justify-content:center;
+    align-items: center;
+  }
+  .Rectangle-10 {
+    width: 84px;
+    height: 1px;
+    background-color: #e0e0e0;
+  }
+  .price{
+      width: 47px;
+      height: 32px;
+      font-family: Karma;
+      font-size: 24px;
+      font-weight: bold;
+      font-stretch: normal;
+      font-style: normal;
+      line-height: 1.33;
+      letter-spacing: 2.88px;
+      text-align: left;
+      color: var(--black);
+      margin-left: 20px;
+      margin-right: 20px;
+      position: relative;
+  }
+  .book-box{
+    display: flex;
+      width: 169px;
+      height: 56px;
+      border: solid 1px black;
+      justify-content: center;
+      align-items: center;
+  }
+  .book-box:hover{
+    display: flex;
+      width: 169px;
+      height: 56px;
+      border: solid 1px blue;
+      justify-content: center;
+      align-items: center;
+      color: blue;
+  }
+  .BOOK-NOW {
+    
+    width: 100px;
+    height: 19px;
+    font-family: OpenSans;
+    font-size: 14px;
+    font-weight: normal;
+    font-stretch: normal;
+    font-style: normal;
+    line-height: 1.36;
+    letter-spacing: 1.68px;
+    text-align: left;
+    color: var(--black);
+    margin-left: 10px;
+  }
+  .THE-BRANDO {
+    width: 180px;
+    height: 31px;
+    font-family: JuliusSansOne;
+    font-size: 23px;
+    font-weight: normal;
+    font-stretch: normal;
+    font-style: normal;
+    line-height: 1.35;
+    letter-spacing: 2.76px;
+    text-align: left;
+    color: var(--black);
+  }
+  .ZARAFA-CAMP {
+    width: 200px;
+    height: 31px;
+    font-family: JuliusSansOne;
+    font-size: 23px;
+    font-weight: normal;
+    font-stretch: normal;
+    font-style: normal;
+    line-height: 1.35;
+    letter-spacing: 2.76px;
+    text-align: left;
+    color: var(--black);
+  }
+  .arrows {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 50px;
+  }
+  
+  .arrow {
+    display: flex;
+    align-items: center;
+    margin: 0 100px; 
+    
+  }
+  
+  .Path-2,
+  .Path-3 {
+    width: 25px;
+    height: 25px;
+    border-top: 2px solid #000;
+    border-left: 2px solid #000;
+    transform-origin: top left;
+  }
+  
+  .Path-2 {
+    transform: rotate(135deg);
+  }
+  
+  .Path-3 {
+    transform: rotate(-45deg);
+  }
+  
+  .page-bottom{
+    height: 100px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+  }
+  .terms{
+    width:300px;
+    height: 30px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+  }
+  .Terms {
+    width: 63px;
+    height: 19px;
+    font-family: OpenSans;
+    font-size: 14px;
+    font-weight: normal;
+    font-stretch: normal;
+    font-style: normal;
+    line-height: 1.36;
+    letter-spacing: 5.6px;
+    text-align: left;
+    color: var(--black);
+  }
+  .Privacy {
+    width: 80px;
+    height: 19px;
+    font-family: OpenSans;
+    font-size: 14px;
+    font-weight: normal;
+    font-stretch: normal;
+    font-style: normal;
+    line-height: 1.36;
+    letter-spacing: 5.6px;
+    text-align: left;
+    color: var(--black);
+  }
+  .Help {
+    width: 47px;
+    height: 19px;
+    font-family: OpenSans;
+    font-size: 14px;
+    font-weight: normal;
+    font-stretch: normal;
+    font-style: normal;
+    line-height: 1.36;
+    letter-spacing: 5.6px;
+    text-align: left;
+    color: var(--black);
+  }
+  .Tourism-2 {
+    width: 111px;
+    height: 43px;
+    font-family: UnthriftSecondPersonal;
+    font-size: 32px;
+    font-weight: normal;
+    font-stretch: normal;
+    font-style: normal;
+    line-height: 1.34;
+    letter-spacing: normal;
+    text-align: left;
+    color: #9e9e9e;
+  }
+  .twitter {
+    width: 20.9px;
+    height: 17px;
+  }
+  .facebook {
+    width: 10px;
+    height: 20px;
+    margin-left: 30px;
+    
+  }
+  .socialMedia{
+    width:300px;
+    height: 30px;
+    display: flex;
+    justify-content: space-evenly;
+  }
+  .rights{
+    width: 183px;
+    height: 15px;
+    font-family: OpenSans;
+    font-size: 11px;
+    font-weight: normal;
+    font-stretch: normal;
+    font-style: normal;
+    line-height: 1.36;
+    letter-spacing: normal;
+    text-align: left;
+    color: #9e9e9e;
+    margin-right: 50px;
+  }
+
+.price::before{
+    content: "";
+    position: absolute;
+    display: block;
+    width: 50px; /* Adjust this value to control the length of the lines */
+    height: 2px; /* Adjust this value to control the thickness of the lines */
+    background-color: black; /* Adjust the color as needed */
+    top: 50%;
+    left: 0;
+    margin-left: 50px;
+   
+}
+    .price::after{
+   
+        content: "";
+        position: absolute;
+        display: block;
+        width: 50px; /* Adjust this value to control the length of the lines */
+        height: 2px; /* Adjust this value to control the thickness of the lines */
+        background-color: black; /* Adjust the color as needed */
+        top: 50%;
+        right: 0;
+        margin-right: 50px;
+       
+    }
+  
